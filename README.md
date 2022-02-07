@@ -1,6 +1,8 @@
 # Doctreen-client
 Test technique
 
+Technologies utilisées : React / TypeScript
+
 Etapes de lancement : 
 
 - clone le projet.
