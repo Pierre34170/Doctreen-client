@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Alert, Button, Container, Form, Spinner } from "react-bootstrap";
+import { Alert, Button, Container, Form } from "react-bootstrap";
 import { signup } from "../../services/auth.service";
 import { useNavigate } from "react-router-dom";
 
@@ -90,7 +90,7 @@ export const SignUpView: React.FunctionComponent = () => {
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="password">
-          <Form.Label>Mot de passe</Form.Label>
+          <Form.Label>Mot de passe (Au moins 8 caractère dont au moins une lettre majuscule, une minuscule, un chiffre et un caractère spécial)</Form.Label>
           <Form.Control
             type="password"
             placeholder="Mot de passe"
